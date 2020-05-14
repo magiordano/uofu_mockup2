@@ -1,38 +1,140 @@
+
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #cc0000;
+  min-height: 7vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
+  
+}
+/* 
+.Header-content{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+} */
+
+.astyle{
+  color: #ffffef;
+  text-decoration: none;
+  font: sans-serif;
+  font-size: 80%;
+  font-weight: 900;
+  letter-spacing: -1.5px; 
+ 
+}
+.bstyle{
+  color: #ffffef;
+  text-decoration: none;
+  font: sans-serif;
+  font-size: 80%;
+  font-weight: 300;
+  letter-spacing: -1px; 
 }
 
-.App-link {
-  color: #61dafb;
+a:hover {
+  color: #f4cccc
+}
+.boxSelect:hover{
+  color: #cc0000
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+p {
+  margin-top:0px;
+  margin-bottom:-1px
+}
+
+.sectionOne{
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+justify-content: space-evenly;
+align-content: center;
+align-items: center;
+margin-left: 500px;
+margin-right: 500px;
+margin-top:50px;
+
+  /* background: #555; */
+}
+
+.sectionTwo{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  margin-left: 500px;
+  margin-right: 500px;
+  
+    /* background: #555; */
   }
-  to {
-    transform: rotate(360deg);
-  }
+.p1{
+  font-size: 2.5em;
+   font-family: 'Anton', sans-serif;
+   color: #333333;
+   letter-spacing: -1px; 
+   font-weight: 200;
+}
+.p2{
+  font-family: 'Roboto', sans-serif;
+}
+
+.body{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+}
+
+.options{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  
+}
+.divider {
+  background-color: #333333;
+  width: 47%;
+  height: 3px;
+  border-color: black;
+  
+
+}
+
+
+.boxSelect{
+  width: 500px;
+  
+  /* border: 5px solid #333333; */
+  padding: 50px;
+  margin: 8px;
+
+  background-color: #e1e1e1;
+  display: flex;
+  flex-direction: column;
+}
+
+.imgframe{
+  width: 400px;
+  height: 320px;
+  margin-bottom: 20px;
 }
